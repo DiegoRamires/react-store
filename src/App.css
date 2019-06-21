@@ -25,3 +25,7 @@ body {
 .text-bright {
   color: var(--lightBlue)
 }
+
+.main-logo {
+  height: 80px;
+}
