@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom'
+import styled from 'styled-components'
+import { ButtonContainer } from './Button'
 import shop from '../shop.png'
 
 class Navbar extends Component {
@@ -22,9 +24,9 @@ class Navbar extends Component {
           </li>
         </ul>
         <Link to="/cart" className="ml-auto" >
-          <button>
+          <ButtonContainer>
             My cart
-          </button>
+          </ButtonContainer>
         </Link>
       </nav>
     );
