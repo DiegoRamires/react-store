@@ -34,8 +34,3 @@ div .button-details {
   color: var(--lightBlue);
   box-shadow: 0 0 3px var(--lightBlue);
 }
-
-div .button-details-cart {
-  color: var(--mainYellow);
-  box-shadow: 0 0 3px var(--mainYellow)
-}
